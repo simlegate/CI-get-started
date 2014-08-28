@@ -12,9 +12,13 @@ for a given task.
 
 > Composer
 
-### Installation
+#### Installation
 
 ```shell
 $ curl -sS https://getcomposer.org/installer | php
 ```
-
+#### Globally Config
+```shell
+mv composer.phar /usr/local/bin/composer
+```
+Then, just run composer in order to run Composer instead of php composer.phar.
