@@ -21,4 +21,4 @@ $ curl -sS https://getcomposer.org/installer | php
 ```shell
 mv composer.phar /usr/local/bin/composer
 ```
-Then, just run composer in order to run Composer instead of php composer.phar.
+Then, just run composer in order to run `Composer` instead of `php composer.phar`.
