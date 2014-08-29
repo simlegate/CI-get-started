@@ -12,13 +12,28 @@ for a given task.
 
 > Composer is a tool for dependency management in PHP
 
-#### Installation
+Installation
 
 ```shell
 $ curl -sS https://getcomposer.org/installer | php
 ```
-#### Globally Config
+Create new file named `composer.json`
+
+```json
+{
+	"description" : "Get Started",
+	"name" : "simlegate/CI-get-started",
+	"require": {
+		"php": ">=5.4.24"
+	},
+	"require-dev": {
+		
+	}
+}
+```
+
+Globally Config
 ```shell
-mv composer.phar /usr/local/bin/composer
+$ mv composer.phar /usr/local/bin/composer
 ```
 Then, just run composer in order to run `Composer` instead of `php composer.phar`.
